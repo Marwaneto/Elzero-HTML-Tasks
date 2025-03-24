@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 dir="rtl">ما هو ال السطر الذي يتم كتابته لتخبر المتصفح أن إصدار اللغة المستخدم في إنشاء الصفحة هو HTML5 ؟ => doctype html   </h1>
+    <h1 dir="rtl">ما هو ال Rendering Mode الذي سوف يتبعه المتصفح إذا لم تكتب السطر الخاص بتحديد الإصدار ؟ => سوف يحملها بطريقة Quirks Mode   </h1>
+    <h1 dir="rtl">هل من السليم إستخدام أكثر من h1 في الصفحة جاوب بنعم أو لا ؟ =>  لا  </h1>
+    <h1 dir="rtl">لديك عنصر يحتوي على بيانات المنتج وعنوان المنتج مكتوب ب h3 هل من المنطقي وضع عنوان h2 داخل نفس المنتج أم لا؟ =>   لا يجب العكس</h1>
+    <h1 dir="rtl">إلى ماذا ترمز العناصر h1, h2, h3, h4, h5, h6 =>  هي عناصر خاصة بروئوس بداية من h1 وهي اكبر هدينج بينهم  </h1>
+
+    <!-- هل هناك إختلاف بين هذه العناصر عندما يتم إظهارهم في الصفحة أم لا ؟ لا سوف يظلون نفس الشئ -->
+    <p class="element">Welcome To The New World</p>
+    <p class='element'>Welcome To The New World</p>
+    <p class=element>Welcome To The New World</p>
+
+
+
+
+    <!--  هل هناك إختلاف بين هذه العناصر عندما يتم إظهارهم في الصفحة أم لا ؟  لا الاثنين لن يظهرو-->
+    <p class=element hidden>Welcome To The New World</p>
+    <p class="element" hidden>Welcome To The New World</p>
+
+
+    <!-- هل هذه العناصر سوف تظهر كلها بنفس الشكل أم لا ؟ لا سوف يظهرون بنفس الشكل الاول-->
+
+    <p>Hello World</p>
+
+    <p>
+        Hello World
+    </p>
+
+    <p>
+        Hello
+        World
+    </p>
+
+    <p>
+        Hello
+
+
+        World
+    </p>
+
+
+    <!-- بجانب كل Attribute من الموجودين في المثال قم بكتابة هل هو من ال Global Attribute أم لا ؟ -->
+
+
+    <h1>title => yes     </h1>
+    <h1>href  => No     </h1>
+    <h1>src   => No     </h1>
+    <h1>hidden  => yes   </h1>
+    <h1>charset  => No   </h1>
+    <h1>class  => yes   </h1>
+    <h1>id  => yes   </h1>
+    <h1>type  => No   </h1>
+
+
+
+
+    <!-- قم بإنشاء صفحة كاملة تحتوي على كل ما درسناه سابقا
+لدينا متجر ونريد كتابة عنوان المتجر في الصفحة إستخدم العنصر السليم لكتابة العنوان
+تحت العنوان هناك فقرة نصية لوصف المتجر قم بكتابتها تحت العنوان مع إستخدام العنصر السليم
+داخل المتجر هناك قسمين من المنتجات قم بكتابة عنوان القسم ولديك الحرية في كتابة أي عنوان تريد
+تحت العنوان هناك 3 منتجات كل منتج له عنوان وفقرة نصية
+بعد كل منتج قم بالفصل بينهم بخط فاصل -->
+
+
+
+
+
+
+    <h1>hlpolo market</h1>
+    <p>Lorem, ipsum dolor.</p>
+
+
+    <h2>red</h2>
+    
+    <h3>red malban</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    <hr>
+    <h3>red malban</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    <hr>
+    <h3>red malban</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    <hr>
+
+    <h2>blue</h2>
+    <h3>red malban</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    <hr>
+    <h3>red malban</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    <hr>
+    <h3>red malban</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    <hr>
+</body>
+</html>
