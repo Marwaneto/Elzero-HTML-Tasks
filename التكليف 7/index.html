@@ -3,9 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>26/3/2025</title>
 </head>
 <body>
-        
+    <div class="Task - 1">
+        <form action="index.html" method="get">
+            <label for="username">Username: </label>
+            <input type="text" name="username" id="username" minlength="5" maxlength="20" required>
+            <br>
+            <label for="email">E-mail: </label>
+            <input type="email" name="email" id="email" value="o@o.com" readonly>
+            <br>
+            <label for="token">Token</label>
+            <input type="text" name="token" id="token" value="b92f1fc2fce391ad7af633723afd3055" hidden>
+            <br>
+            <input type="reset" value="Reset">
+            <br>
+            <input type="submit" value="Send">
+        </form>
+    </div>
+    <hr>
+    <div class="Task - 2">
+        <form action="index.html" method="get">
+            <label for="username">Username: </label>
+            <input type="text" name="username" id="username" minlength="5" maxlength="20" required>
+            <br>
+            <label for="email">E-mail: </label>
+            <input type="email" name="email" id="email" value="o@o.com" readonly>
+            <br>
+            <label for="token">Token</label>
+            <input type="text" name="token" id="token" value="b92f1fc2fce391ad7af633723afd3055" hidden>
+            <br>
+            <label>Skills: </label>
+            <input type="checkbox" name="Skill" id="Planning" value="Planning" checked>
+            <label for="Planning">Planning</label>
+            <input type="checkbox" name="Skill" id="Analysis" value="Analysis">
+            <label for="Analysis">Analysis</label>
+            <input type="checkbox" name="Skill" id="Advanced_Search" value="Advanced Search">
+            <label for="Advanced_Search">Advanced Search</label>
+            <input type="checkbox" name="Skill" id="Logical_Thinking" value="Logical Thinking">
+            <label for="Logical_Thinking">Logical Thinking</label>
+            <input type="checkbox" name="Skill" id="Problem_Solving" value="Problem Solving">
+            <label for="Problem_Solving">Problem Solving</label>
+            <br>
+            <label>job: </label>
+            <input type="radio" name="job" id="Scrum_Master" value="Scrum Master">
+            <label for="Scrum_Master">Scrum Master</label>
+            <input type="radio" name="job" id="Project_Manager" value="Project Manager" >
+            <label for="Project_Manager">Project Manager</label>
+            <input type="radio" name="job" id="Business_Analyst" value="Business Analyst" >
+            <label for="Business_Analyst">Business Analyst</label>
+            <input type="radio" name="job" id="Back-End_Developer" value="Back-End Developer" >
+            <label for="Back-End_Developer">Back-End Developer</label>
+            <input type="radio" name="job" id="Front-End_Developer" value="Front-End Developer">
+            <label for="Front-End_Developer">Front-End Developer</label>
+            <br>
+            <input type="reset" value="Reset">
+            <br>
+            <input type="submit" value="Send">
+        </form>
+    </div>
+    <hr>
+    <div class="Task - 3">
+        <form action="index.html">
+            <label for="book">Choose Book: </label>
+            <select name="book" id="book">
+                <optgroup label="PHP">
+                    <option value="v5.0">v5.0</option>
+                    <option value="v8.0">v8.0</option>
+                    <option value="v9.0">v9.0</option>
+                </optgroup>
+                <optgroup label="CSS">
+                    <option value="v5.0">v5.0</option>
+                    <option value="v8.0">v8.0</option>
+                    <option value="v9.0">v9.0</option>
+                </optgroup>
+            </select>
+            <hr>
+            <textarea name="brief" id="brief" placeholder="Write Here Why You Want To Learn Programming" rows="10" cols="100"></textarea>
+        </form>
+    </div>
 </body>
 </html>
